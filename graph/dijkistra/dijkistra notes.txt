@@ -1,0 +1,6 @@
+dijkistra algorithm doesnt work for -ve wts 
+but time complexity of dijkistra algorithm is faster 
+Refer to clrs book
+
+Dijkstra’s algorithm solves the single-source shortest-paths problem on a weighted, directed graph G D .V; E/ for the case in which all edge weights are nonnegative. In this section, therefore, we assume that w.u; /  0 for each edge .u; / 2 E.As we shall see, with a good implementation, the running time of Dijkstra’s algorithm is lower than that of the Bellman-Ford algorithm
+
