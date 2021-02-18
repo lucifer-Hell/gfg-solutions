@@ -31,9 +31,9 @@ class Solution {
               }
             }
             visited[currVertex]=1;
-            // find the next min vertex
+            // find the next min wt vertex
             minWt=Integer.MAX_VALUE;
-            for(int j=0;j<wt.length;j++)
+            for(int j=0;j<wt.length;j++){
                 
               if(visited[j]==0 && wt[j]<minWt){
                 currVertex=j;
